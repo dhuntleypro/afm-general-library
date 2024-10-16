@@ -32,8 +32,7 @@ export  {  default as TermsOfUsePage } from './pages/terms-of-use/TermsOfUsePage
 export { default as PrivacyPolicyPage } from './pages/privacy-policy/PrivacyPolicyPage';
 export  {  default as CookiesPage } from './pages/cookies/CookiesPage'
 
-export { StoreTheme } from './interfaces/StoreTheme'
-
+export * from './interfaces/StoreTheme';  // Ensure the path is correct
 
 // Layout DO NOT WORK -- NOT COMPATABLE 
 // export { RootLayout} from './layouts/RootLayout'
