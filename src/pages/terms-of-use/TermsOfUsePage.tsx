@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const TermsOfUsePage = () => {
+export const TermsOfUsePage = () => {
   return (
     <View>
       <Text>TermsOfUsePage</Text>

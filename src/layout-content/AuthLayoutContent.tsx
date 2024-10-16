@@ -34,7 +34,7 @@ export default function AuthLayoutContent(store_id: string) {
           await getClientCollections(store_id);
         } else {
           await getClientStore(store_id);
-          router.replace('/welcome'); // Redirect to welcome if not authenticated
+          router.replace('/welcome' as  never); // Redirect to welcome if not authenticated
         }
         setIsCheckingAuth(false);
       };

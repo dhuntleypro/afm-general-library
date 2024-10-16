@@ -57,7 +57,8 @@ npm publish
     2. Update package file
     3. npm run build
     4. npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
-        1. Enter Git hub info with token key in notes or github
+        1. Username: dhuntleypro
+        2. Enter Git hub info with token key in notes or github as password
 
 
 npm install --save-dev @babel/cli @babel/core @babel/preset-env
@@ -66,7 +67,7 @@ npm install --save-dev @babel/cli @babel/core @babel/preset-env
 9. If fail - update billing information in github and increate limit to $30
 10. In new project : 
     1. login - npm login --scope=@NAMESPACE --auth-type=legacy --registry=https://npm.pkg.github.com
-        
+
     2. npm i @dhuntleypro/afm-expo-components
 
 
