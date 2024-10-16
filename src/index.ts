@@ -27,12 +27,12 @@ export * from "./model-sample-data/sample-order"
 export {SAMPLE_PRODUCT} from "./model-sample-data/sample-product"
 
 
-
+// not working
 export  {  default as TermsOfUsePage } from './pages/terms-of-use/TermsOfUsePage'
-export  {  default as PrivacyPolicyPage } from './pages/privacy-policy/PrivacyPolicyPage'
+export { default as PrivacyPolicyPage } from './pages/privacy-policy/PrivacyPolicyPage';
 export  {  default as CookiesPage } from './pages/cookies/CookiesPage'
 
-
+export { StoreTheme } from './interfaces/StoreTheme'
 
 
 // Layout DO NOT WORK -- NOT COMPATABLE 
